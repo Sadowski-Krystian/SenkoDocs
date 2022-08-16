@@ -339,7 +339,7 @@ Args:
 
 .. code-block:: console
 
-    Usage: /profile settings privacy <privacy-options>"
+    Usage: /profile settings privacy <privacy-options>
 
 Settings notification
 """""""""""""""""""""
@@ -355,7 +355,7 @@ Args:
 
 .. code-block:: console
 
-    Usage: /profile settings notification <notification>"
+    Usage: /profile settings notification <notification>
 
 
 Documentation created by:
