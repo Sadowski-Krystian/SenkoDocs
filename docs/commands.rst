@@ -13,7 +13,7 @@ Administration commands
 Prefix
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Description: Set custom prefix for bot (prefix is only used to help command) if prefix not given will be set default
+Description: Set custom prefix for bot (prefix is only used to help command) if prefix not given will be set to default
 
 Required Permission: ADMINISTRATOR
 
@@ -30,6 +30,7 @@ Description: Clear chat by given amount or message author
 Required Permission: ADMINISTRATOR or MANAGE_MESSAGES
 
 Args:
+
 * Amount: number of message to delete
 * User: Author of message to delete
 
@@ -163,6 +164,7 @@ Contact
 Description: Contact to bot owner to reporte bugs or send a feature proposition
 
 Args:
+
 * Title: title of the message
 * Content: content of the message
 
@@ -221,7 +223,11 @@ Follow
 Create
 """"
 
-Description: Create profile to follow other users. You can delete your profile after 30 days
+Description: Create profile to follow other users. 
+
+.. warning::
+
+    You can delete your profile after 30 days
 
 Args:
             * Privacy-options: Public - Everyone see your profile and can follow Unpublic - Everyone can follow you but your profile is hide Private - You need to accept all following requests and your profile is hide 
@@ -235,7 +241,11 @@ Args:
 Delete
 """"""
 
-Description: Delete your profile with following and followers. We can't be able to restore you profile after deleting
+Description: Delete your profile with following and followers. 
+
+.. warning::
+
+    We can't be able to restore you profile after deleting
 
 .. code-block:: console
 
@@ -347,3 +357,8 @@ Args:
 
     Usage: /profile settings notification <notification>"
 
+
+Documentation created by:
+
+  * `Sadowski Krystian <https://github.com/Sadowski-Krystian>`_
+  * Gummun

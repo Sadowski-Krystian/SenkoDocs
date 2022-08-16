@@ -18,4 +18,10 @@ Contents
 .. toctree::
 
    commands
+
+
+Documentation created by:
+
+  * `Sadowski Krystian <https://github.com/Sadowski-Krystian>`_
+  * Gummun
    
