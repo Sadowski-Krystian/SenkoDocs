@@ -80,10 +80,11 @@ Automessage
 Required Permission: ADMINISTRATOR
 Automessage limit: 2
 
-Add
-""""
 
-Description: Add auto message to your server
+Add Auto
+""""""""
+
+Description: Add auto message to your server with constructor
 
 Args:
             * country-code: 2-digit code of country to get time zone, `Country Codes <https://www.iban.com/country-codes>`_
@@ -98,6 +99,22 @@ Args:
 .. code-block:: console
 
     Usage: /automessage add <country-code> <job-name> <channel> <hour> <minutes> [day-month] [month] [day-week]
+
+
+Add Manual
+""""""""""
+
+Description: Add auto message to your server with your own cron expression
+
+Args:
+            * country-code: 2-digit code of country to get time zone, `Country Codes <https://www.iban.com/country-codes>`_
+            * job-name: Name under will be show auto message
+            * channel: Channel where auto message will be send
+            * cron-expression: You own cron expression, `online cron generator <https://crontab.guru/>`_
+
+.. code-block:: console
+
+    Usage: /automessage add <country-code> <job-name> <channel> <cron-expression>
 
 Delete
 """"""
